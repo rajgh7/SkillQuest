@@ -29,6 +29,8 @@
     nav .logo {
       font-weight: 700;
       font-size: 1.5rem;
+      display: flex;
+      align-items: center;
     }
 
     nav ul {
@@ -62,6 +64,11 @@
       font-size: 1.2rem;
       max-width: 600px;
       margin: auto;
+    }
+
+    .logo-image {
+      height: 40px;
+      margin-right: 10px;
     }
 
     section {
@@ -156,11 +163,10 @@
 </head>
 <body>
   <nav>
-   <!-- <div class="logo">SkillQuest</div>
-    <div class="logo"> -->
-  <img src="Logo.png" alt="SkillQuest Logo" style="height: 150px;" />
-</div>
-
+    <div class="logo">
+      <img src="logo.png" alt="SkillQuest Logo" class="logo-image" />
+      SkillQuest
+    </div>
     <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
     <ul id="nav-links">
       <li><a href="#">Home</a></li>
@@ -186,18 +192,22 @@
       <div class="card">
         <h3>AI Explorers (8–12)</h3>
         <p>Discover smart tech with fun tools like ChatGPT & Alexa.</p>
+        <img src="ai-course.jpg" alt="AI Explorers" style="width: 100%; border-radius: 8px; margin-top: 1rem;" />
       </div>
       <div class="card">
         <h3>Cyber Ninjas (10–14)</h3>
         <p>Ethical hacking & online safety taught creatively.</p>
+        <img src="cyber-course.jpg" alt="Cyber Ninjas" style="width: 100%; border-radius: 8px; margin-top: 1rem;" />
       </div>
       <div class="card">
         <h3>Data Champs (12–16)</h3>
         <p>Decode real data using Python and Excel stories.</p>
+        <img src="data-course.jpg" alt="Data Champs" style="width: 100%; border-radius: 8px; margin-top: 1rem;" />
       </div>
       <div class="card">
         <h3>Smart Communicators (10–18)</h3>
         <p>Build confidence, public speaking & leadership skills.</p>
+        <img src="communicators-course.jpg" alt="Smart Communicators" style="width: 100%; border-radius: 8px; margin-top: 1rem;" />
       </div>
     </div>
   </section>
@@ -216,8 +226,8 @@
     <h2>Interested in enrolling?</h2>
     <p>Book a free trial class or speak to our team today!</p>
     <div class="buttons">
-      <button class="primary">Book Trial Class</button>
-      <button class="outline">Talk to a Mentor</button>
+      <button class="primary" onclick="window.location.href='https://wa.me/919XXXXXXXXX?text=Hi%20SkillQuest%20Team%2C%20I%27d%20like%20to%20book%20a%20trial%20class.'">Book Trial Class</button>
+      <button class="outline" onclick="window.location.href='https://wa.me/919XXXXXXXXX?text=Hi%20SkillQuest%20Team%2C%20I%27d%20like%20to%20talk%20to%20a%20mentor.'">Talk to a Mentor</button>
     </div>
   </section>
 
@@ -234,4 +244,3 @@
   </script>
 </body>
 </html>
-
