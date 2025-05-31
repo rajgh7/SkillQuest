@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SkillQuest Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">SkillQuest</div>
+    <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
+      <li><a href="index.html" style="color:#0066ff;">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to SkillQuest Club</h1>
+    <p>Discover AI, Data Science, Cybersecurity & Soft Skills training for kids aged 8-18</p>
+  </header>
+
+  <section>
+    <h2>Why SkillQuest?</h2>
+    <p>We create engaging and interactive learning experiences that make technology accessible and fun.</p>
+  </section>
+
+  <section>
+    <h2>Join Us</h2>
+    <p>Enroll in our programs to empower your child with skills for the future.</p>
+    <a href="contact.html" class="primary">Contact Us</a>
+  </section>
+
+  <footer>
+    <p>Contact: hello@skillquestclub.com | +91-XXXXXXXXXX</p>
+    <p>Bangalore, India</p>
+    <p>Follow us on Instagram | LinkedIn | YouTube</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-links').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

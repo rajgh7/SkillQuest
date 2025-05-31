@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Courses - SkillQuest</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">SkillQuest</div>
+    <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html" style="color:#0066ff;">Courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Our Courses</h1>
+    <p>Explore hands-on learning in AI, Cybersecurity, Data Science, and Soft Skills.</p>
+  </header>
+
+  <section>
+    <h2>Artificial Intelligence</h2>
+    <p>Introduction to machine learning, chatbots, and image recognition.</p>
+  </section>
+
+  <section>
+    <h2>Cybersecurity</h2>
+    <p>Learn digital safety, ethical hacking, and online awareness.</p>
+  </section>
+
+  <section>
+    <h2>Data Science</h2>
+    <p>Analyze real-world data using charts and Python.</p>
+  </section>
+
+  <section>
+    <h2>Soft Skills</h2>
+    <p>Build communication, collaboration, leadership & public speaking skills.</p>
+  </section>
+
+  <footer>
+    <p>Contact: hello@skillquestclub.com | +91-XXXXXXXXXX</p>
+    <p>Bangalore, India</p>
+    <p>Follow us on Instagram | LinkedIn | YouTube</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-links').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
